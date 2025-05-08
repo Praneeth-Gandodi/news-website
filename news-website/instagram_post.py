@@ -2,7 +2,7 @@ import requests
 from instagrapi import Client
 import os
 
-API_ENDPOINT = 'YOUR_API_ENDPOINT'  # Replace with your real API endpoint
+API_ENDPOINT = 'https://praneeth-gandodi.github.io/news-website/'  # Replace with your real API endpoint
 
 response = requests.get(API_ENDPOINT)
 print(response.status_code)
